@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover is mandatory: without it every safe-area-inset-* is 0
+         and content hides under the Dynamic Island. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#FFFFFF" />
+
+    <!-- This tag, not the manifest's display:standalone, is what actually drops
+         the URL bar on iOS. -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Lumen" />
+
+    <!-- Relative hrefs so the build also works from a subpath (GitHub Pages
+         project sites), not just a domain root. -->
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <!-- iOS ignores SVG here; without a PNG the Home Screen icon is a screenshot. -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+
+    <title>Lumen</title>
+    <script type="module" crossorigin src="./assets/index-DMFDcrbo.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-xcZkbC1g.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
